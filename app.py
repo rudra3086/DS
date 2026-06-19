@@ -6,8 +6,8 @@ from transformers import pipeline
 def load_model():
     return pipeline(
         "summarization",
-        model="models/transformer",
-        tokenizer="models/transformer"
+        model="24CS075/dialogue-summarizer",
+        tokenizer="24CS075/dialogue-summarizer"
     )
 
 summarizer = load_model()
